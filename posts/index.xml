@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on devlog</title>
+    <link>https://donam.dev/posts/</link>
+    <description>Recent content in Posts on devlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <managingEditor>donam.kim_at_hotmail.com (Donam Kim)</managingEditor>
+    <webMaster>donam.kim_at_hotmail.com (Donam Kim)</webMaster>
+    <copyright>(c) 2020 Donam Kim</copyright>
+    <lastBuildDate>Fri, 05 Oct 2007 20:16:00 +1000</lastBuildDate>
+    
+	<atom:link href="https://donam.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>F# active patterns</title>
+      <link>https://donam.dev/posts/fs-active-patterns/</link>
+      <pubDate>Fri, 05 Oct 2007 20:16:00 +1000</pubDate>
+      <author>donam.kim_at_hotmail.com (Donam Kim)</author>
+      <guid>https://donam.dev/posts/fs-active-patterns/</guid>
+      <description>F# 패턴 매칭에서 엑티브 패턴(active patterns)이라 불리는 좀 특별한 형태가 존재하는데 처음 공부할 때 대충 공부해서 오늘 날잡고 좀 들여다 보면서 정리해보려고 한다.
+일단 &amp;ldquo;&amp;ldquo;&amp;ldquo;제대로&amp;rdquo;&amp;rdquo;&amp;rdquo; 공부하기전에 전에 대충 공부하고 이해한 엑티브 패턴은 동적으로 패턴을 찾는거라고 이해했었는데 맞는지 한번 자세히 들여다 보자.
+일단 F# 뉴스레터에서 추천했던 다음 동영상부터 감상을 하자 (아래 이미지 클릭시 재생) 
+해당 동영상의 소스와 프리젠테이션은 아래 링크에 공개되어있다 https://github.com/pblasucci/DeepDive_ActivePatterns
+동영상 요약 F#의 패턴 매칭에는 한계(limitation)가 있다. F#이 CLR위에서 동작하고 CLR을 만들때는 Functional language에 대한 염두가 없었기 때문이다.</description>
+    </item>
+    
+  </channel>
+</rss>

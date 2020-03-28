@@ -3,27 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://donam.dev/tags/.net/</loc>
-    <lastmod>2020-03-28T10:20:59+10:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://donam.dev/tags/dev/</loc>
-    <lastmod>2020-03-28T10:20:59+10:00</lastmod>
+    <lastmod>2020-03-28T11:12:46+10:00</lastmod>
   </url>
   
   <url>
     <loc>https://donam.dev/</loc>
-    <lastmod>2020-03-28T10:20:59+10:00</lastmod>
+    <lastmod>2020-03-28T11:12:46+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://donam.dev/tags/f#/</loc>
+    <lastmod>2020-03-28T11:12:46+10:00</lastmod>
   </url>
   
   <url>
     <loc>https://donam.dev/posts/</loc>
-    <lastmod>2020-03-28T10:20:59+10:00</lastmod>
+    <lastmod>2020-03-28T11:12:46+10:00</lastmod>
   </url>
   
   <url>
     <loc>https://donam.dev/tags/</loc>
+    <lastmod>2020-03-28T11:12:46+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://donam.dev/posts/fsharp-ionide/</loc>
+    <lastmod>2020-03-28T11:12:46+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://donam.dev/tags/.net/</loc>
     <lastmod>2020-03-28T10:20:59+10:00</lastmod>
   </url>
   
@@ -33,8 +43,13 @@
   </url>
   
   <url>
-    <loc>https://donam.dev/tags/f#/</loc>
-    <lastmod>2020-03-27T22:54:04+10:00</lastmod>
+    <loc>https://donam.dev/tags/news/</loc>
+    <lastmod>2020-03-27T22:53:30+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://donam.dev/posts/migration/</loc>
+    <lastmod>2020-03-27T22:53:30+10:00</lastmod>
   </url>
   
   <url>

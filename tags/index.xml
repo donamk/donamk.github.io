@@ -9,17 +9,35 @@
     <managingEditor>donam.kim_at_hotmail.com (Donam Kim)</managingEditor>
     <webMaster>donam.kim_at_hotmail.com (Donam Kim)</webMaster>
     <copyright>(c) 2020 Donam Kim</copyright>
-    <lastBuildDate>Fri, 05 Oct 2007 20:16:00 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2020 10:20:59 +1000</lastBuildDate>
     
 	<atom:link href="https://donam.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>fsharp</title>
-      <link>https://donam.dev/tags/fsharp/</link>
+      <title>.Net</title>
+      <link>https://donam.dev/tags/.net/</link>
+      <pubDate>Sat, 28 Mar 2020 10:20:59 +1000</pubDate>
+      <author>donam.kim_at_hotmail.com (Donam Kim)</author>
+      <guid>https://donam.dev/tags/.net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dev</title>
+      <link>https://donam.dev/tags/dev/</link>
+      <pubDate>Sat, 28 Mar 2020 10:20:59 +1000</pubDate>
+      <author>donam.kim_at_hotmail.com (Donam Kim)</author>
+      <guid>https://donam.dev/tags/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>F#</title>
+      <link>https://donam.dev/tags/f#/</link>
       <pubDate>Fri, 05 Oct 2007 20:16:00 +1000</pubDate>
       <author>donam.kim_at_hotmail.com (Donam Kim)</author>
-      <guid>https://donam.dev/tags/fsharp/</guid>
+      <guid>https://donam.dev/tags/f#/</guid>
       <description></description>
     </item>
     

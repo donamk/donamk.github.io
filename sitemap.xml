@@ -3,27 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://donam.dev/tags/dev/</loc>
-    <lastmod>2020-03-28T11:12:46+10:00</lastmod>
+    <loc>https://donam.dev/tags/c#/</loc>
+    <lastmod>2020-03-28T14:25:11+10:00</lastmod>
   </url>
   
   <url>
     <loc>https://donam.dev/</loc>
-    <lastmod>2020-03-28T11:12:46+10:00</lastmod>
+    <lastmod>2020-03-28T14:25:11+10:00</lastmod>
   </url>
   
   <url>
     <loc>https://donam.dev/tags/f#/</loc>
-    <lastmod>2020-03-28T11:12:46+10:00</lastmod>
+    <lastmod>2020-03-28T14:25:11+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://donam.dev/tags/paket/</loc>
+    <lastmod>2020-03-28T14:25:11+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://donam.dev/posts/what-is-paket/</loc>
+    <lastmod>2020-03-28T14:25:11+10:00</lastmod>
   </url>
   
   <url>
     <loc>https://donam.dev/posts/</loc>
-    <lastmod>2020-03-28T11:12:46+10:00</lastmod>
+    <lastmod>2020-03-28T14:25:11+10:00</lastmod>
   </url>
   
   <url>
     <loc>https://donam.dev/tags/</loc>
+    <lastmod>2020-03-28T14:25:11+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://donam.dev/posts/why-love-fsharp/</loc>
+    <lastmod>2020-03-28T13:23:51+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://donam.dev/tags/dev/</loc>
     <lastmod>2020-03-28T11:12:46+10:00</lastmod>
   </url>
   

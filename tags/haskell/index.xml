@@ -9,10 +9,22 @@
     <managingEditor>donam.kim_at_hotmail.com (Donam Kim)</managingEditor>
     <webMaster>donam.kim_at_hotmail.com (Donam Kim)</webMaster>
     <copyright>(c) 2020 Donam Kim</copyright>
-    <lastBuildDate>Sat, 18 Apr 2020 10:02:34 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2020 11:39:18 +1000</lastBuildDate>
     
 	<atom:link href="https://donam.dev/tags/haskell/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>헤스켈 프로젝트 설정</title>
+      <link>https://donam.dev/posts/haskell-0/</link>
+      <pubDate>Sat, 18 Apr 2020 11:39:18 +1000</pubDate>
+      <author>donam.kim_at_hotmail.com (Donam Kim)</author>
+      <guid>https://donam.dev/posts/haskell-0/</guid>
+      <description>들어가지 전에 이전 헤스켈 설치 포스트를 따라 제대로 설정했다면 해당 포스트에서 모든 기능이 제대로 동작할 것이다.
+프로젝트 생성 Haskell 프로젝트는 stack new &amp;lt;project-name&amp;gt;을 사용에 생성할 수 있다.
+stack new gs-haskell 프로젝트 설정 프로젝트를 생성 했다고 바로 쓸 수 있는것이 아니라 필요한 라이브러리를 땡겨오는 설정이 필요하다.
+cd gs-haskell stack setup Stack has not been tested with GHC versions above 8.6, and using 8.8.3, this may fail Preparing to install GHC to an isolated location.</description>
+    </item>
     
     <item>
       <title>헤스켈 설치</title>

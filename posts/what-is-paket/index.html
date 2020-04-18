@@ -17,7 +17,7 @@
     
     
 
-<title>Paket 의존성 매니저 • devlog</title>
+<title>Paket 의존성 매니저 • </title>
 
 
 <meta name="twitter:card" content="summary"/>
@@ -63,8 +63,7 @@ dotnet tool install -g paket 다음 명령어로 Packet 설치를 확인할 수 
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/favicon.png">
     
-    
-
+    <link rel="stylesheet" href="/css/code.css">
 </head>
 
 
@@ -74,7 +73,7 @@ dotnet tool install -g paket 다음 명령어로 Packet 설치를 확인할 수 
   <div class="container ">
     <div class="sidebar-about">
       <span class="site__title">
-        <a href="https://donam.dev/">devlog</a>
+        <a href="https://donam.dev/"></a>
       </span>
       
         
@@ -92,7 +91,7 @@ dotnet tool install -g paket 다음 명령어로 Packet 설치를 확인할 수 
     </div>
     <div class="collapsible-menu">
       <input type="checkbox" id="menuToggle">
-      <label for="menuToggle">devlog</label>
+      <label for="menuToggle"></label>
       <div class="menu-content">
         <div>
 	<ul class="sidebar-nav">
@@ -264,7 +263,7 @@ nuget DryIoc 4.1.3 <span style="color:#75715e"># 추가된 부분</span>
 │   └── ExampleB.fsproj
 ├── paket.dependencies
 └── paket.lock
-</code></pre></div><p>프로젝트 ExampleA와 ExampleB 모두에서 사용 할 의존성은 <code>paket.references</code>에 명시한다/
+</code></pre></div><p>프로젝트 ExampleA와 ExampleB 모두에서 사용 할 의존성은 <code>paket.references</code>에 명시한다.
 e.g.) XUnit</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">.
 ├── src
@@ -275,7 +274,7 @@ e.g.) XUnit</p>
 └── paket.lock
 </code></pre></div><p>특정 프로젝트에서 사용하는 의존성은 <code>projectfilename.packet.reference</code>에 명시한다.
 e.g) Microsoft.EntityFrameworkCore</p>
-<pre><code>.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">.
 ├── src
 │   ├── ExampleA.fsproj
 │   ├── ExampleA.fsproj.paket.references
@@ -283,7 +282,7 @@ e.g) Microsoft.EntityFrameworkCore</p>
 │   └── ExampleB.fsproj.paket.references
 ├── paket.dependencies
 └── paket.lock
-</code></pre><p><code>packet.reference</code> 파일에서는 의존성 다음과 같이 이름만 명시하면 된다.</p>
+</code></pre></div><p><code>packet.reference</code> 파일에서는 의존성 다음과 같이 이름만 명시하면 된다.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">DryIoc
 </code></pre></div><p>더 자세한 의존성 컨트롤은 Paket 공식 문서를 참고하자.
 <a href="https://fsprojects.github.io/Paket/index.html">https://fsprojects.github.io/Paket/index.html</a></p>
@@ -299,6 +298,11 @@ e.g) Microsoft.EntityFrameworkCore</p>
       <span class="navigation-tittle">Why I Love Fsharp</span>
     </a>
     
+    
+    <a href="/posts/haskell-installation/" class="navigation-next">
+      <span class="navigation-tittle">헤스켈 설치</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
     
 </div>
 

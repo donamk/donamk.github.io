@@ -17,27 +17,21 @@
     
     
 
-<title>.Net core SDK 설치 on Mac • </title>
+<title>Microsoft Graph란? • </title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=".Net core SDK 설치 on Mac"/>
-<meta name="twitter:description" content="F#을 macOS에서 사용하기 위해서는 .Net Core SDK를 다운로드 받아야한다.
-다음 링크에서 Downlload .NET Core SDK 버튼을 클릭하고 dotnet-sdk-{version}-osx64.pkg 파일을 다운로드 하자. https://dotnet.microsoft.com/download
-다운로드 한 패키지 파일을 실행하면 다음과 같은 화면을 볼 수 있다. 계속 countinue 버튼를 클릭해서 설치를 완료하자.
-설치가 완료되었으면 콘솔에서 다음을 실행해서 바로 설치되었는지 확인하자.
-dotnet --list-sdks 3.1.200 [/usr/local/share/dotnet/sdk] "/>
+<meta name="twitter:title" content="Microsoft Graph란?"/>
+<meta name="twitter:description" content="Microsoft Graph란?
+Microsoft Graph를 이야기 하면 GraphQL의 마이크로소프트 버전이냐고 묻는 사람이 있어서 필자에게 충격을 안겨 주었는데 정확하진 않지만 Office 365가 출시된 어느 시점에 이 개발자가 Office 365를 가지고 개발하기 위해 Microsoft Graph API가 있었고 이는 대략 2017년 초로 기억한다. Microsoft 365 사이트를 들어가보면(https://www.microsoft.com/en-au/microsoft-365) Office 365 becomes Microsoft 365 on April 22란 문구가 보이고 Office 365가 MS 365로 리브랜딩 됐다는 것을 볼 수 있다. 그렇다면 MS 365를 사용하기 위한 개발자 API는 그대로 MS Graph API(https://docs."/>
 
-<meta property="og:title" content=".Net core SDK 설치 on Mac" />
-<meta property="og:description" content="F#을 macOS에서 사용하기 위해서는 .Net Core SDK를 다운로드 받아야한다.
-다음 링크에서 Downlload .NET Core SDK 버튼을 클릭하고 dotnet-sdk-{version}-osx64.pkg 파일을 다운로드 하자. https://dotnet.microsoft.com/download
-다운로드 한 패키지 파일을 실행하면 다음과 같은 화면을 볼 수 있다. 계속 countinue 버튼를 클릭해서 설치를 완료하자.
-설치가 완료되었으면 콘솔에서 다음을 실행해서 바로 설치되었는지 확인하자.
-dotnet --list-sdks 3.1.200 [/usr/local/share/dotnet/sdk] " />
+<meta property="og:title" content="Microsoft Graph란?" />
+<meta property="og:description" content="Microsoft Graph란?
+Microsoft Graph를 이야기 하면 GraphQL의 마이크로소프트 버전이냐고 묻는 사람이 있어서 필자에게 충격을 안겨 주었는데 정확하진 않지만 Office 365가 출시된 어느 시점에 이 개발자가 Office 365를 가지고 개발하기 위해 Microsoft Graph API가 있었고 이는 대략 2017년 초로 기억한다. Microsoft 365 사이트를 들어가보면(https://www.microsoft.com/en-au/microsoft-365) Office 365 becomes Microsoft 365 on April 22란 문구가 보이고 Office 365가 MS 365로 리브랜딩 됐다는 것을 볼 수 있다. 그렇다면 MS 365를 사용하기 위한 개발자 API는 그대로 MS Graph API(https://docs." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://donam.dev/posts/dotnet-install-osx/" />
-<meta property="article:published_time" content="2020-03-28T10:20:59+10:00" />
-<meta property="article:modified_time" content="2020-03-28T10:20:59+10:00" /><meta property="og:site_name" content="devlog" />
+<meta property="og:url" content="https://donam.dev/posts/ms-graph-1/" />
+<meta property="article:published_time" content="2020-04-18T10:02:34+10:00" />
+<meta property="article:modified_time" content="2020-04-18T10:02:34+10:00" /><meta property="og:site_name" content="devlog" />
 
 
     
@@ -164,13 +158,13 @@ Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.c
     
 <article>
   <header>
-    <h1>.Net core SDK 설치 on Mac</h1>
+    <h1>Microsoft Graph란?</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> 28 Mar 2020
+      <i class="fas fa-calendar-alt"></i> 18 Apr 2020
     
     
     
@@ -179,7 +173,7 @@ Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.c
           in
           
           
-              <a class="badge badge-category" href="/categories/.net">.NET</a>
+              <a class="badge badge-category" href="/categories/azure">AZURE</a>
               •
           
               <a class="badge badge-category" href="/categories/dev">DEV</a>
@@ -194,10 +188,7 @@ Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.c
           <br/>
            <i class="fas fa-tags"></i>
           
-          <a class="badge badge-tag" href="/tags/dev">dev</a>
-           
-      
-          <a class="badge badge-tag" href="/tags/.net">.net</a>
+          <a class="badge badge-tag" href="/tags/ms365">ms365</a>
           
       
     
@@ -211,32 +202,28 @@ Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.c
   
   
   <div class="post">
-    <p>F#을 macOS에서 사용하기 위해서는 .Net Core SDK를 다운로드 받아야한다.</p>
-<p>다음 링크에서 Downlload .NET Core SDK 버튼을 클릭하고 dotnet-sdk-{version}-osx64.pkg 파일을 다운로드 하자.
-<a href="https://dotnet.microsoft.com/download">https://dotnet.microsoft.com/download</a></p>
-<p>다운로드 한 패키지 파일을 실행하면 다음과 같은 화면을 볼 수 있다.
-<img src="/dotnet-core-sdk-osx-install.png" alt="install"></p>
-<p>계속 countinue 버튼를 클릭해서 설치를 완료하자.</p>
-<p>설치가 완료되었으면 콘솔에서 다음을 실행해서 바로 설치되었는지 확인하자.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">dotnet --list-sdks
+    <p>Microsoft Graph란?</p>
+<p>Microsoft Graph를 이야기 하면 GraphQL의 마이크로소프트 버전이냐고 묻는 사람이 있어서 필자에게 충격을 안겨 주었는데 정확하진 않지만 Office 365가 출시된 어느 시점에 이 개발자가 Office 365를 가지고 개발하기 위해 Microsoft Graph API가 있었고 이는 대략 2017년 초로 기억한다.
+Microsoft 365 사이트를 들어가보면(<a href="https://www.microsoft.com/en-au/microsoft-365">https://www.microsoft.com/en-au/microsoft-365</a>) <code>Office 365 becomes Microsoft 365 on April 22</code>란 문구가 보이고 Office 365가 MS 365로 리브랜딩 됐다는 것을 볼 수 있다.
+그렇다면 MS 365를 사용하기 위한 개발자 API는 그대로 MS Graph API(<a href="https://docs.microsoft.com/en-us/graph">https://docs.microsoft.com/en-us/graph</a>)이다.</p>
+<p>MS Graph API 공식 문서는 <a href="https://docs.microsoft.com/en-us/graph/overview">https://docs.microsoft.com/en-us/graph/overview</a> 에서 찾을 수 있다.</p>
+<p>Office 365
+Microsoft Identity Platform
+OAuth 2.0 OpenID Connect</p>
+<p>Microsoft Graph
+The API for Microsoft 365</p>
+<p><a href="https://developer.microsoft.com/en-us/microsoft-365/dev-program">https://developer.microsoft.com/en-us/microsoft-365/dev-program</a></p>
 
-3.1.200 <span style="color:#f92672">[</span>/usr/local/share/dotnet/sdk<span style="color:#f92672">]</span>
-</code></pre></div>
   </div>
   
 
 <div class="navigation navigation-single">
     
-    <a href="/posts/migration/" class="navigation-prev">
+    <a href="/posts/haskell-installation/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">블로그 이전</span>
+      <span class="navigation-tittle">헤스켈 설치</span>
     </a>
     
-    
-    <a href="/posts/fsharp-ionide/" class="navigation-next">
-      <span class="navigation-tittle">VS Code - F# Ionide 플러그인</span>
-      <i aria-hidden="true" class="fa fa-chevron-right"></i>
-    </a>
     
 </div>
 

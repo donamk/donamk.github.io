@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on devlog</title>
+    <title>Posts on </title>
     <link>https://donam.dev/posts/</link>
-    <description>Recent content in Posts on devlog</description>
+    <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
     <managingEditor>donam.kim_at_hotmail.com (Donam Kim)</managingEditor>
     <webMaster>donam.kim_at_hotmail.com (Donam Kim)</webMaster>
     <copyright>(c) 2020 Donam Kim</copyright>
-    <lastBuildDate>Sat, 28 Mar 2020 14:25:11 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2020 10:02:34 +1000</lastBuildDate>
     
 	<atom:link href="https://donam.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>헤스켈 설치</title>
+      <link>https://donam.dev/posts/haskell-installation/</link>
+      <pubDate>Sat, 18 Apr 2020 10:02:34 +1000</pubDate>
+      <author>donam.kim_at_hotmail.com (Donam Kim)</author>
+      <guid>https://donam.dev/posts/haskell-installation/</guid>
+      <description>들어가기 전에&amp;hellip; 헤스켈을 사용하는 여러가지 방법이 있겠지만 필자는 VS CODE를 선호하고 따라서 VS CODE에서 헤스켈 개발의 편의성을 높이는 방법으로 설명할 것이다.
+헤스켈 설치 Stack 설치 GHC(The Glasgow Haskell Compiler)를 바로 설치하는 방법도 있지만 Stack을 사용해서 설치한다. Stack은 헤스켈 프로젝트 빌드와 의존성 관리를 도와주는 도구이다.
+다음과 같이 설치할 수 있다.
+brew install haskell-stack Stack 설치 확인은 다음과 같이 할 수 있다.
+stack --version Version 2.1.3, Git revision 0fa51b9925decd937e4a993ad90cb686f88fa282 (7739 commits) x86_64 hpack-0.</description>
+    </item>
     
     <item>
       <title>Paket 의존성 매니저</title>

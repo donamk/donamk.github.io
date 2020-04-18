@@ -17,7 +17,7 @@
     
     
 
-<title>Why I Love Fsharp • devlog</title>
+<title>Why I Love Fsharp • </title>
 
 
 <meta name="twitter:card" content="summary"/>
@@ -61,8 +61,7 @@ type Person = { FirstName: string LastName: string } 이는 내가 자바를 별
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/favicon.png">
     
-    
-
+    <link rel="stylesheet" href="/css/code.css">
 </head>
 
 
@@ -72,7 +71,7 @@ type Person = { FirstName: string LastName: string } 이는 내가 자바를 별
   <div class="container ">
     <div class="sidebar-about">
       <span class="site__title">
-        <a href="https://donam.dev/">devlog</a>
+        <a href="https://donam.dev/"></a>
       </span>
       
         
@@ -90,7 +89,7 @@ type Person = { FirstName: string LastName: string } 이는 내가 자바를 별
     </div>
     <div class="collapsible-menu">
       <input type="checkbox" id="menuToggle">
-      <label for="menuToggle">devlog</label>
+      <label for="menuToggle"></label>
       <div class="menu-content">
         <div>
 	<ul class="sidebar-nav">
@@ -235,7 +234,7 @@ Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.c
     <span style="color:#75715e">/* ... */</span>
 }
 </code></pre></div><h1 id="2-구조적-동등성-비교structural-equality">2. 구조적 동등성 비교(Structural equality)</h1>
-<p>C#에서 어떤 객체의 속성이 같은지를 비교하려면 IEquatable<!-- raw HTML omitted -->인터페이스를 구현해야한다.</p>
+<p>C#에서 어떤 객체의 속성이 같은지를 비교하려면 IEquatable<T>인터페이스를 구현해야한다.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Person</span> : IEquatable&lt;Person&gt;
 {
     <span style="color:#75715e">// 구현 생략 ...

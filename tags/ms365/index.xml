@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MS365 on </title>
+    <link>https://donam.dev/tags/ms365/</link>
+    <description>Recent content in MS365 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <managingEditor>donam.kim_at_hotmail.com (Donam Kim)</managingEditor>
+    <webMaster>donam.kim_at_hotmail.com (Donam Kim)</webMaster>
+    <copyright>(c) 2020 Donam Kim</copyright>
+    <lastBuildDate>Sat, 18 Apr 2020 10:02:34 +1000</lastBuildDate>
+    
+	<atom:link href="https://donam.dev/tags/ms365/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Microsoft Graph란?</title>
+      <link>https://donam.dev/posts/ms-graph-1/</link>
+      <pubDate>Sat, 18 Apr 2020 10:02:34 +1000</pubDate>
+      <author>donam.kim_at_hotmail.com (Donam Kim)</author>
+      <guid>https://donam.dev/posts/ms-graph-1/</guid>
+      <description>Microsoft Graph란?
+Microsoft Graph를 이야기 하면 GraphQL의 마이크로소프트 버전이냐고 묻는 사람이 있어서 필자에게 충격을 안겨 주었는데 정확하진 않지만 Office 365가 출시된 어느 시점에 이 개발자가 Office 365를 가지고 개발하기 위해 Microsoft Graph API가 있었고 이는 대략 2017년 초로 기억한다. Microsoft 365 사이트를 들어가보면(https://www.microsoft.com/en-au/microsoft-365) Office 365 becomes Microsoft 365 on April 22란 문구가 보이고 Office 365가 MS 365로 리브랜딩 됐다는 것을 볼 수 있다. 그렇다면 MS 365를 사용하기 위한 개발자 API는 그대로 MS Graph API(https://docs.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>.Net on devlog</title>
+    <title>.Net on </title>
     <link>https://donam.dev/tags/.net/</link>
-    <description>Recent content in .Net on devlog</description>
+    <description>Recent content in .Net on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
     <managingEditor>donam.kim_at_hotmail.com (Donam Kim)</managingEditor>

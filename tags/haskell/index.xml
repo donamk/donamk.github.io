@@ -9,11 +9,7 @@
     <managingEditor>donam.kim_at_hotmail.com (Donam Kim)</managingEditor>
     <webMaster>donam.kim_at_hotmail.com (Donam Kim)</webMaster>
     <copyright>(c) 2020 Donam Kim</copyright>
-    <lastBuildDate>Sat, 18 Apr 2020 11:39:18 +1000</lastBuildDate>
-    
-	<atom:link href="https://donam.dev/tags/haskell/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 18 Apr 2020 11:39:18 +1000</lastBuildDate><atom:link href="https://donam.dev/tags/haskell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>헤스켈 프로젝트 설정</title>
       <link>https://donam.dev/posts/haskell-0/</link>

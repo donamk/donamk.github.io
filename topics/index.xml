@@ -8,10 +8,6 @@
     <language>ko-KR</language>
     <managingEditor>donam.kim_at_hotmail.com (Donam Kim)</managingEditor>
     <webMaster>donam.kim_at_hotmail.com (Donam Kim)</webMaster>
-    <copyright>(c) 2020 Donam Kim</copyright>
-    
-	<atom:link href="https://donam.dev/topics/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>(c) 2020 Donam Kim</copyright><atom:link href="https://donam.dev/topics/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

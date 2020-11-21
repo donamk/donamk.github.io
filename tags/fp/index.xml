@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FP on </title>
+    <link>https://donam.dev/tags/fp/</link>
+    <description>Recent content in FP on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <managingEditor>donam.kim_at_hotmail.com (Donam Kim)</managingEditor>
+    <webMaster>donam.kim_at_hotmail.com (Donam Kim)</webMaster>
+    <copyright>(c) 2020 Donam Kim</copyright>
+    <lastBuildDate>Sat, 14 Oct 2017 12:38:19 +1000</lastBuildDate><atom:link href="https://donam.dev/tags/fp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>안녕 FP</title>
+      <link>https://donam.dev/posts/hello-fp-0/</link>
+      <pubDate>Sat, 14 Oct 2017 12:38:19 +1000</pubDate>
+      <author>donam.kim_at_hotmail.com (Donam Kim)</author>
+      <guid>https://donam.dev/posts/hello-fp-0/</guid>
+      <description>서문 함수형 프로그래밍(이하 FP)을 처음 접한 때는 한국의 데브멘토라는 사이트에서 F#에 관한 글이 올라오면서 약간의 분란(?)이 일었던 시기이다. 가물가물하긴 하지만 F# 버전이 아마 1.0도 되지 않았던 것으로 기억한다. F#을 조금 공부하고 나서는 &amp;lsquo;어렵다&amp;rsquo;와 &amp;lsquo;내가 아는 프로그래밍 언어와는 꽤 다르다&amp;rsquo;라는 두가지 생각이 동시에 들었었다.
+이후 꽤 오랜시간 별 관심이 없다가 2008년 무렵 Jon Skeet이 컨퍼런스에서 FP에 관해 이야기 함으로써 F#에 대한 기억이 되살아 났다. 2010년 Tomas Petricek과 Jon Skeet의 『Real-World Functional Programming』이 출간되고 이 책을 호주 책방에 주문해서 거의 3달 만에 받았던 기억이 난다.</description>
+    </item>
+    
+  </channel>
+</rss>

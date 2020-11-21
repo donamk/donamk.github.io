@@ -9,11 +9,7 @@
     <managingEditor>donam.kim_at_hotmail.com (Donam Kim)</managingEditor>
     <webMaster>donam.kim_at_hotmail.com (Donam Kim)</webMaster>
     <copyright>(c) 2020 Donam Kim</copyright>
-    <lastBuildDate>Sat, 28 Mar 2020 14:25:11 +1000</lastBuildDate>
-    
-	<atom:link href="https://donam.dev/tags/c#/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 28 Mar 2020 14:25:11 +1000</lastBuildDate><atom:link href="https://donam.dev/tags/c#/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Paket 의존성 매니저</title>
       <link>https://donam.dev/posts/what-is-paket/</link>
